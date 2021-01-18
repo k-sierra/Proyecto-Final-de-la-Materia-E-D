@@ -7,11 +7,21 @@
 </head>
 <body>
     <form style="margin: 100px 200px 10px 200px">
-        <label style="font-size: 30px">Expresion </label>
-        <input id="expresion" type="text" placeholder="Ingresa la expresion" style="font-size: 20px"><p>
-        <button id="btnCalcular" type="button" style="font-size: 30px">Calcular expresion</button><p>
+        <label style="font-size: 40px"><strong>Sistema que crea un arbol binario en base a una expresion aritmetica</strong></label><br><br>
+        <label style="font-size: 30px">Utiliza los operadores: <strong>+, -, *, / y ^</strong></label><br><br>
+        <label style="font-size: 30px">Utiliza operándos de <strong>un solo dígito</strong></label><br><br>
+        <label style="font-size: 30px">Ingresa la expresion </label>
+        <input id="expresion" type="text" placeholder="Expresion aritmetica" style="font-size: 20px"><br><br>
+        
+        <button id="btnCalcular" type="button" style="font-size: 30px">Calcular expresion</button><br><br>
+
         <label style="font-size: 30px">Resultado </label>
-        <input id="resultadoExpresion" type="text" style="font-size: 20px">
+        <input id="resultadoExpresion" type="text" placeholder="Resultado" style="font-size: 20px"><br><br>
+
+        <label style="font-size: 30px"><strong>Recorrido preorden</strong></label>
+        <p id="preorden" style="font-size: 20px"></p>
+        <label style="font-size: 30px"><strong>Recorrido postorder</strong></label>
+        <p id="postorden" style="font-size: 20px"></p>
     </form>
     <script src="Main.js"></script>
 </body>
